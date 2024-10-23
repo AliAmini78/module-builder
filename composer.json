@@ -26,7 +26,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ModuleBuilderServiceProvider"
+                "aliamini78\\ModuleBuilder\\ModuleBuilderServiceProvider"
             ]
         }
     },
