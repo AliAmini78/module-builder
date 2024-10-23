@@ -5,7 +5,7 @@ namespace aliamini78\ModuleBuilder;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 
-class ModuleBuilderServiceProvider extends ServiceProvider implements DeferrableProvider
+class ModuleBuilderServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
@@ -24,12 +24,9 @@ class ModuleBuilderServiceProvider extends ServiceProvider implements Deferrable
      */
     public function boot(): void
     {
-
-        if ($this->app->runningInConsole()) {
             $this->commands([
                 Commands\MakeModule::class,
             ]);
-        }
     }
 
 }
