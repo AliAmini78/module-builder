@@ -28,5 +28,7 @@
                 "AliAmini78\\ModuleBuilder\\ModuleBuilderServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
