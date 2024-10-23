@@ -1,5 +1,6 @@
 {
     "name": "aliamini78/module-builder",
+    "version": "1.0.0",
     "description": "Package for making modules in Laravel.",
     "keywords": ["laravel", "module", "modular"],
     "license": "MIT",
