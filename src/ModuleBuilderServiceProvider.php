@@ -28,7 +28,7 @@ class ModuleBuilderServiceProvider extends ServiceProvider implements Deferrable
 
         if ($this->app->runningInConsole()) {
             $this->commands([
-                MakeModule::class,
+                Commands\MakeModule::class,
             ]);
         }
     }
