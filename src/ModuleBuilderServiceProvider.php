@@ -1,8 +1,7 @@
 <?php
 
-namespace AliAmini78\ModuleBuilder;
+namespace aliamini78\ModuleBuilder;
 
-use AliAmini78\ModuleBuilder\Commands\MakeModule;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider;
 

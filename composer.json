@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aliamini78\\module-builder\\": "src/"
+            "aliamini78\\ModuleBuilder\\": "src/"
         }
     },
     "extra": {

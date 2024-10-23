@@ -1,6 +1,6 @@
 <?php
 
-namespace AliAmini78\ModuleBuilder\Commands;
+namespace aliamini78\ModuleBuilder\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
