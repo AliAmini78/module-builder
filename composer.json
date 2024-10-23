@@ -1,11 +1,11 @@
 {
     "name": "aliamini78/module-builder",
-    "description": "package for make module",
-    "keywords": ["laravel", "module" , "modular"],
+    "description": "Package for making modules in Laravel.",
+    "keywords": ["laravel", "module", "modular"],
     "license": "MIT",
     "authors": [
         {
-            "name": "ali amini",
+            "name": "Ali Amini",
             "email": "a.amini78@gmail.com"
         }
     ],
@@ -30,5 +30,11 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../module-builder"
+        }
+    ]
 }
