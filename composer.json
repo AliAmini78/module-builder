@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AliAmini78\\ModuleBuilder\\": "src/"
+            "aliamini78\\module-builder\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AliAmini78\\ModuleBuilder\\ModuleBuilderServiceProvider"
+                "aliamini78\\module-builder\\ModuleBuilderServiceProvider"
             ]
         }
     },
