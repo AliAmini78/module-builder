@@ -1,5 +1,5 @@
 {
-    "name": "aliamini78/module-builder",
+    "name": "aliamini78/ModuleBuilder",
     "version": "1.0.0",
     "description": "Package for making modules in Laravel.",
     "keywords": ["laravel", "module", "modular"],
