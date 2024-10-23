@@ -1,5 +1,5 @@
 {
-    "name": "aliamini78/modulebuilder",
+    "name": "aliamini78/module-builder",
     "version": "1.0.0",
     "description": "Package for making modules in Laravel.",
     "keywords": ["laravel", "module", "modular"],
@@ -31,11 +31,6 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../composer/ModuleBuilder/*"
-        }
+    "prefer-stable": true
     ]
 }
