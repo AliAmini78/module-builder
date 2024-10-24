@@ -250,7 +250,7 @@ class {$moduleName}ServiceProvider extends ServiceProvider
 namespace $moduleType\\$moduleName\\Providers;
 
 use $moduleType\\$moduleName\\Database\\Repositories\\Contracts\\{$moduleName}RepositoryInterface;
-use $moduleType\\$moduleName\\Database\\Repositories\\Repo\\{$moduleName}Repository;
+use $moduleType\\$moduleName\\Database\\Repositories\\Repos\\{$moduleName}Repository;
 use Illuminate\\Support\\ServiceProvider;
 
 class {$moduleName}RepositoryPatternServiceProvider extends ServiceProvider
