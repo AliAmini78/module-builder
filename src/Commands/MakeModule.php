@@ -2,7 +2,7 @@
 
 namespace aliamini78\ModuleBuilder\Commands;
 
-use App\Traits\FilesList;
+use aliamini78\ModuleBuilder\Traits\FilesList;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 
